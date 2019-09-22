@@ -305,6 +305,9 @@ input:-moz-placeholder { color:#fff; }
 	border-left: 1px solid white;
 }
 
+.tableoverflow {
+	overflow-x: auto;
+}
 .anothertable {
 	width:100%;
 	border: 0px solid white;
@@ -312,7 +315,7 @@ input:-moz-placeholder { color:#fff; }
 .anothertable .anothertableheader {
 	text-align: center;
     background: rgb(199,187,164);
-	padding: 5px;
+	padding: 2px;
 }
 .anothertable .anothertabledata {
 	text-align: center;
@@ -1603,12 +1606,17 @@ figure.effect-chico:hover p {
 }
 
 @media screen and (max-width: 69.5em) {
-    .grid figure {
+    .grid figure, .gridsmall figure {
         width: 50%;
     }   
-
+    .gridsmall figure {
+        width: 100%;
+    }   
     .grid figure figcaption {
         font-size: 90%;
+    }
+    .gridsmall figure figcaption {
+        font-size: 70%;
     }
 }
 
@@ -1743,7 +1751,7 @@ footer ul li a {
 
 @media (max-width:767px) {
     #header .banner h1 {
-        font-size:60px;
+        font-size:40px;
     }
     #header .subtitle h4 {
         font-size: 22px;
@@ -1757,7 +1765,6 @@ footer ul li a {
         font-size: 65px;
         text-align: center;
     }
-
 
     .blog .left .news > img, .blog .right .news > img {
         float: none;
@@ -1781,8 +1788,11 @@ footer ul li a {
         display: block;
     }
     .section-title {
-        font-size: 36px;
+        font-size: 28px;
     }
+    #openingstijden .section-title {
+        font-size: 28px;
+    }   
     footer ul {
         padding-left: 0;
         margin-top: 20px;
@@ -1790,6 +1800,9 @@ footer ul li a {
         padding-top: 10px;
         border-bottom: 1px solid;
         padding-bottom: 10px;
+    }
+    #contact img {
+		width:40%;
     }
 
 }
