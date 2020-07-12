@@ -354,6 +354,9 @@ p.bigger-paragraph {
         padding-top: 20px;
 }
 
+li.bigger-paragraph {
+        font-size: 1.2em;
+}
 
 /* ==========================================================================
  Contact 
