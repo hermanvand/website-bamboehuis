@@ -88,9 +88,10 @@ img {
     background:rgb(137,117,96);
     width:300px;
     float:right;
-    padding:5px;
+    padding:15px;
     margin-top:10px;
-    margin-bottom:20%;
+    margin-bottom:10%;
+    text-align:center;
 }
 #header .bottom {
     width:100%;
@@ -194,6 +195,28 @@ img {
 
 .header-img9 {
     background-image:url(../img/header-bg-custom-9.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+.header-img10 {
+    background-image:url(../img/header-bg-custom-10.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+.header-img11 {
+    background-image:url(../img/header-bg-custom-11.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -548,18 +571,9 @@ p {
     max-height: initial !important;
 }
 
-.grid figure figcaption {
+.grid figure figcaption, .gridsmall figure figcaption {
     padding: 2em;
     color: #fff;
-    text-transform: uppercase;
-    font-size: 1.25em;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.gridsmall figure figcaption {
-    padding: 2em;
-    color: rgb(73,73,77);
     text-transform: uppercase;
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
