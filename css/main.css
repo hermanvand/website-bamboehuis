@@ -1667,7 +1667,7 @@ figure.effect-chico:hover p {
         font-size: 70%;
     }
     .btn-lg {
-        font-size: 80%;
+        font-size: 70%;
     }
 }
 
@@ -1676,9 +1676,6 @@ figure.effect-chico:hover p {
 
     .grid figure {
         width: 100%;
-    }
-    .btn-lg {
-        font-size: 80%;
     }
 }
 
