@@ -1666,6 +1666,9 @@ figure.effect-chico:hover p {
     .gridsmall figure figcaption {
         font-size: 70%;
     }
+    .btn-lg {
+        font-size: 80%;
+    }
 }
 
 
@@ -1673,6 +1676,9 @@ figure.effect-chico:hover p {
 
     .grid figure {
         width: 100%;
+    }
+    .btn-lg {
+        font-size: 80%;
     }
 }
 
