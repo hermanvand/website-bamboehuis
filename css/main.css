@@ -86,12 +86,12 @@ img {
 #header .mybox {
     font-size:18px;
     background:rgb(137,117,96);
-    width:300px;
+    width:350px;
     float:right;
     padding:15px;
     margin-top:10px;
     margin-bottom:10%;
-    text-align:center;
+    text-align:right;
 }
 #header .bottom {
     width:100%;
