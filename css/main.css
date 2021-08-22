@@ -378,6 +378,20 @@ input:-moz-placeholder { color:#fff; }
     font-size: 1.2em;
     vertical-align:bottom;
 }
+.anothertable-too {
+	width:100%;
+	margin:5px;
+	border: 0px solid white;
+}
+.anothertable-too .anothertabledata-too{
+	text-align: left;
+    background: rgb(199,187,164);
+	padding: 5px;
+	margin:10px;
+    font-size: 1.0em;
+    vertical-align:bottom;
+    color: black;
+}
 
 /* ==========================================================================
  Lesaanbod 
