@@ -93,6 +93,17 @@ img {
     margin-bottom:10%;
     text-align:right;
 }
+#header .bannerbox {
+    font-size:18px;
+    background:rgb(137,117,96);
+    width:350px;
+    float:right;
+    padding:15px;
+    margin-top:-100px;
+    margin-right:50px;
+    margin-bottom:10%;
+    text-align:right;
+}
 #header .bottom {
     width:100%;
     position:absolute;
@@ -217,6 +228,19 @@ img {
 
 .header-img11 {
     background-image:url(../img/header-bg-custom-11.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+/* Campagnes */
+
+.header-campagne-img1 {
+    background-image:url(../campagnes/img/yoga-zoals-het-bedoeld-is.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
