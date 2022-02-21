@@ -239,6 +239,19 @@ img {
 
 /* Campagnes */
 
+.header-missing {
+    background-image:url(../img/missing.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+/* Campagnes */
+
 .header-campagne-img1 {
     background-image:url(../campagnes/img/yoga-zoals-het-bedoeld-is.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
