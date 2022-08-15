@@ -444,6 +444,26 @@ li.bigger-paragraph {
         font-size: 1.2em;
 }
 
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card-body > p {
+    margin-bottom: 10px;
+}
+
+.card-body > img {
+    margin-bottom: 10px;
+}
+
 /* ==========================================================================
  Contact 
 ========================================================================== */
@@ -1606,7 +1626,6 @@ figure.effect-zoe figcaption > span {
 figure.effect-zoe figcaption > span::before {
     display: inline-block;
     padding: 8px 10px;
-    speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -1840,7 +1859,15 @@ footer ul li a {
  Responsive styles 
 ========================================================================== */
 
-@media (max-width: 1199px){
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
+
+@media (max-width: 1200px){
 
     h1.giant-heading {
         font-size: 104px;
@@ -1848,7 +1875,7 @@ footer ul li a {
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 1024px){
 
     h1.giant-heading {
         font-size: 82px;
@@ -1856,7 +1883,7 @@ footer ul li a {
 }
 
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     #header .banner h1 {
         font-size:40px;
     }
@@ -1911,7 +1938,13 @@ footer ul li a {
     #contact img {
 		width:40%;
     }
-
 }
 
-
+@media (max-width:480px) {
+    .vrimiwo-card div img {
+		width:80%;
+    }
+    .vrimiwo-card {
+		font-size:85%;
+    }
+}
