@@ -85,13 +85,14 @@ img {
 }
 #header .mybox {
     font-size:18px;
-    background:rgb(137,117,96);
-    width:350px;
+    background:rgba(137,117,96,0.7);
+    width:fit-content;
     float:right;
     padding:15px;
     margin-top:10px;
     margin-bottom:10%;
     text-align:right;
+    border-radius: 7px;
 }
 #header .bannerbox {
     font-size:18px;
@@ -429,6 +430,12 @@ input:-moz-placeholder { color:#fff; }
     font-size: 1.0em;
     vertical-align:bottom;
     color: black;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* ==========================================================================
