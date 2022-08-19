@@ -133,7 +133,7 @@ img {
 }
 
 .header-img2 {
-    background-image:url(../img/header-bg-custom-2.jpg);
+    background-image:url(../img/header-bg-custom-12.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -154,7 +154,7 @@ img {
 }
 
 .header-img4 {
-    background-image:url(../img/header-bg-custom-4.jpg);
+    background-image:url(../img/header-bg-custom-2.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -501,6 +501,11 @@ li.bigger-paragraph {
 
 .grey-wrapper {
 	background: rgb(131,132,135);
+	color: white;
+}
+
+.yellow-wrapper {
+	background: rgb(177,131,47);
 	color: white;
 }
 

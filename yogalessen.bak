@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bamboehuis - Yogalessen in Amsterdam</title>
+    <meta name="description" content="Kom tot rust, luister naar de stilte en ervaar dat stilte er altijd is. De stilte helpt jou en laat je zien wie je bent.">
+    <meta name="keywords" content="Yogalessen, Yoga Amsterdam, basis, gevorderd, rust, stilte, ervaar de stilte">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+   
+
+    
+    <link href='https://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="120" >
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+
+    <div id="header" class="header-img2">
+        <div class="bg-overlay"></div>
+            <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="ion-navicon"></i>
+                        </button>
+                        <a class="navbar-brand" href="/index.html"><h2><i class="ion-home"></i></h2></a>
+                    </div><!-- navbar-header -->
+					<div id="navbar" class="navbar-collapse collapse">
+
+						<ul class="nav navbar-nav navbar-right">
+							<!--<li><a href="#stilte">Ervaar de stilte</a></li>-->
+							<li><a href="#lesinhoud">Lesinhoud</a></li>
+							<li><a href="#docent">Docent</a></li>
+							<li><a href="#blog">Aanmelden & Kosten</a></li>
+
+						</ul>
+					</div><!--/.navbar-collapse -->
+                </div><!-- container -->
+            </div><!-- menu -->
+
+            <div class="center text-right">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="condensed">Yogalessen</h1>
+                    </div>
+                    <!--<div class="subtitle"><h4>Ervaar de stilte</h4></div>-->
+                </div>
+            </div>
+            
+        <div class="bottom">
+            <div class="text-right container hidden-xs"><a id="scrollDownArrow" href="#"><i class="ion-ios7-arrow-thin-down"></i></a></div>
+            <div class="signupForm">
+                <div class="container">
+                </div><!-- container -->
+            </div><!--/signupForm-->
+        </div>
+    </div>
+    <!-- /#header -->
+
+
+    <div id="stilte" class="light-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <h1 class="giant-heading">
+                            Ervaar de stilte
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+<p class="bigger-paragraph">Ssst….  de stilte in jou laat je zien wie je werkelijk bent.</p>
+<p class="bigger-paragraph">Kom tot rust, luister naar de stilte en ervaar dat stilte er altijd is. De stilte helpt jou en laat je zien wie je bent. Kom langs en begin met de yogalessen als het tijd voor je is om naar binnen te kijken en de drukte van de dag te laten voor wat het is. De yogalessen helpen je om naar binnen te leren kijken, waar je stilte leert vinden.</p>
+
+<p class="bigger-paragraph">
+<b>Basis yogales</b>
+
+<br/>Basis yogales is voor iedereen die stilte met yoga zoekt en graag meer wil weten over de filosofische achtergrond van yoga en wat het voor jou kan betekenen. De stilte wordt ervaren door een samenwerking tussen jouw lichaam, je denken en de energie. Deze samenwerking komt tot stand door het doen van
+
+<ul>
+<li>asana’s – lichamelijke houdingen</li>
+<li>kriya’s – reinigen van de energiebanen</li>
+<li>annapanna – concentratie oefening gericht op je adem</li>
+<li>yogafilosofie – onderbouwing van de les gericht op kennis van jouw fysiek lichaam</li>
+</ul>
+
+<br/>Of je nu al jaren aan yoga hebt gedaan of nog nooit, de les is voor jou bedoeld als jouw zoektocht naar stilte en ware yogakennis is begonnen. In totaal worden er 36 lessen gegeven in een jaar. Je kunt elk gewenst moment instromen.
+</p> 
+
+<p class="bigger-paragraph">
+<b>Gevorderde yogales</b>
+
+<br/>Gevorderde yogales is voor iedereen die al meer stilte heeft gevonden en deze wil verdiepen en uitbreiden. Je hebt al langere tijd yoga gevolgd en kunt 15 minuten stilzitten in concentratie/meditatie. De verdieping en uitbreiding van de stilte wordt in de gevorderde les bereikt door
+
+<ul>
+<li>langer aanhouden van complexere asana’s</li>
+<li>pranayama - energiebeheersing</li>
+<li>pratyahara - de kunst van het onthechten</li>
+<li>concentratie op Nada – concentratie oefening gericht op het luisteren naar jouw eigen energie</li>
+<li>yogafilosofie- onderbouwing van de les gericht op kennis van jouw energie lichaam</li>
+</ul>
+
+<br/>De les is voor jou bedoeld als je hebt ervaren dat Yoga je stilte brengt en dat deze stilte de basis vormt voor verdere spirituele ontwikkeling. In totaal worden er 36 lessen gegeven in een jaar. Je kunt elk gewenst moment instromen.
+</p>
+
+<p class="bigger-paragraph">
+<b>Masterclass yoga</b>
+
+<br/>
+Een masterclass is er voor jou als je de basis of gevorderde yogalessen hebt gevolgd. Je wilt graag bezig blijven met je yogabeoefening, uitdagende houdingen leren en meer tijd besteden aan je meditatie.
+<br/>
+<br/>
+In deze lessen is er geen thema, jouw vragen bepalen de inhoud van de les en zullen beantwoord worden vanuit de yogafilosofie. We gaan in deze masterclass samen yogahoudingen beoefenen en er is tijd voor meditatie.
+<br/>
+<br/>
+Je leert in deze les goed te luisteren naar wat er langskomt en hierop te anticiperen.
+</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- #stilte -->
+       
+        
+    <div id="lesinhoud" class="light-wrapper gridsmall">
+            <div class="title">
+                <h2 class="section-title text-center">Lesinhoud</h2>
+            </div>
+        <figure id="yoga-asana" class="effect-bubba">
+            <img src="img/losseyogalessen/yoga-asana-small.jpg" alt="img01">
+            <figcaption>
+                <h2>Asana's</h2>
+                <p>Met aandacht leer je yogahoudingen uit te voeren. Je leert wat het effect van elke houding is op jouw lichaam. 
+Regelmatige beoefening van yogahoudingen geven je lichaam kracht, ruimte en soepelheid.</p>
+                <a href="#yoga-asana">View more</a>
+            </figcaption>           
+        </figure>
+        <figure id="yoga-filosofie" class="effect-bubba">
+            <img src="img/losseyogalessen/yoga-filosofie-small.jpg" alt="img07">
+            <figcaption>
+                <h2>Filosofie</h2>
+                <p>Elke week wordt de les rond een yogaonderwerp opgebouwd. De les kan gaan over de Yama's en Niyama,s zoals geweldloosheid of tevredenheid, of het onderwerp kan bijvoorbeeld gaan over prana, jouw energie. De lessen zijn gebaseerd op Raja Yoga, waarbinnen de yogasutra's van Patanjali de filosofische basis vormen van de les. Elk onderwerp wordt toegepast binnen het dagelijks leven. 
+Je leert yoga toe te passen los van je yogamat.</p>
+                <a href="#yoga-filosofie">View more</a>
+            </figcaption>           
+        </figure>
+        <figure id="yoga-voorjou" class="effect-bubba">
+            <img src="img/losseyogalessen/yoga-voorjou-small.jpg" alt="img04">
+            <figcaption>
+                <h2>Voor jou</h2>
+                <p>Tijdens het laatste deel van de les is er ruimte voor al jouw vragen. Je kunt hier de les laten bezinken en nog even een heerlijk kopje thee drinken.</p>
+                <a href="#yoga-voorjou">View more</a>
+            </figcaption>           
+        </figure>
+        <figure id="yoga-stilte" class="effect-bubba">
+            <img src="img/losseyogalessen/yoga-stilte-small.jpg" alt="img02">
+            <figcaption>
+                <h2>Stilte</h2>
+                <p>Tijdens de basisyogalessen leer je met behulp van anapana je te concentreren, deze concentratiemethode helpt jou je aandacht te richten op je adem. Je denken komt tot rust. Anapana is onderdeel van Vipassana meditatie, Vipassana is een van India’s oudste meditatietechnieken. Tijdens de gevorderde yogalessen leer je met het luisteren naar Nada, je concentratie te verdiepen. Het Nada is het geluid van de energiekanalen. Door het luisteren naar het Nada kom je in een subtielere waarneming en komt je lichaam, energie en denken in een harmonieuzere staat.</p>
+                <a href="#yoga-stilte">View more</a>
+            </figcaption>           
+        </figure>
+        &nbsp;.<br/> <!-- something wrong here... -->
+    </div> 
+    <!-- #lesinhoud -->
+
+    <div id="docent" class="red-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">Docent</h2>
+            </div>
+            <div class="row story">
+                <div class="col-sm-5">
+                    <div class="col-wrapper">
+                        <img class="bottom-marged" src="img/evelien.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="col-wrapper">
+<!--						<p><span class="quote-span">"Yoga brengt stilte. Mag jouw leven vol zijn van deze liefdevolle stilte."</span><br/></p>
+                       <p class="bigger-paragraph">De basis en gevorderde yogalessen worden gegeven door Evelien Eefting. Zij heeft in 2012 de 1 jarige rajayoga basisopleiding en in 2015 de driejarige RajaYoga docentenopleiding bij Śri Yogācārya Ajīta Mahārāja in Ilpendam gevolgd. (<a target="_blank" href="http://rajayoga.home.xs4all.nl">rajayoga.home.xs4all.nl</a>) In de zomer van 2018 heeft zij ook de 3 jarige meestersopleiding in de yoga bij hem afgerond. Daarnaast heeft zij jaren Vipassana meditatie beoefend, onderwezen door Goenka (<a target="_blank" href="http://www.dhamma.org">www.dhamma.org</a>).</p>-->
+ <p>Evelien is yogadocent en geeft aktief les sinds maart 2017. Zij heeft van 2012 t/m 2018 de volgende opleidingen in het Raja yoga instituut in Ilpendam (rajayoga.home.xs4all.nl) gevolgd en afgerond:
+
+<ul>
+	<li>1 jarige rajayoga basisopleiding</li>
+    <li>3 jarige Raja yogadocenten opleiding</li>
+    <li>3 jarige meestersopleiding in de yoga</li>
+</ul>
+
+Haar yogameester Śri Yogācārya Ajīta Mahārāja (<a target="_blank" href="http://rajayoga.home.xs4all.nl">rajayoga.home.xs4all.nl</a>) en vele andere grootmeesters in de yoga hebben haar geïnspireerd om les te gaan geven. Daarnaast heeft zij jaren Vipassana meditatie beoefend, onderwezen door Goenka (<a href="http://www.dhamma.org">www.dhamma.org</a>).</p>
+
+<p>Binnen de lessen brengt zij jou naar de stilte, daar waar je de zachtheid, vriendelijkheid en de liefde ervaart die altijd al in jou aanwezig is.</p>
+                   </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+    </div><!-- #story -->
+
+    <div id="blog" class="sepia-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">Praktische informatie</h2>
+            </div>
+
+            <div class="row blog">
+                
+                <div class="col-sm-6 left">
+                    <div class="news clearfix">
+                        <img src="img/losseyogalessen/b2.jpg" alt="" style="padding-bottom:120px;">
+                        <h3>Kosten</h3>
+                        <p>Een Yogales van 90 minuten kost €15,00.
+                        <br/>
+                        Je ontvangt maandelijks een factuur voor de lessen waaraan je hebt deelgenomen.
+                        </p>
+                        <p>Als je deze lessen volgt kun je gratis deelnemen aan de ochtendmeditatie.</p>
+                       <!-- <a href="#" class="fold-link">Read More</a>-->
+                    </div>
+                </div>  <!-- col-sm-6  -->
+
+                <div class="col-sm-6 right">
+                    <div class="news clearfix">
+                        <img src="img/losseyogalessen/b1.jpg" alt="" style="padding-bottom:120px;">
+                        <h3>Aanmelden</h3>
+                        <p>Neem eenmalig contact op als je zin hebt om mee te doen met de yogalessen. Na aanmelden kun je zelf een geschikt tijdstip kiezen met de reservering app. <br/><br/>Bel of mail Evelien: t:0641506559, email:evelien@dompseler.nl. Of kom langs bij het bamboehuis.
+                       <p class="text-center"><a href="mailto:evelien@dompseler.nl?subject=aanmelden%20yogales&body=" class="btn btn-success btn-lg" role="button">Neem contact op per email</a></p>
+
+                        <!--<a href="#" class="fold-link">Read More</a>-->
+                    </div>
+                </div>  <!-- col-sm-6  -->
+
+            </div>
+            <!-- /.blog --> 
+        </div>
+        <!-- /.container -->
+    </div><!-- #blog -->
+
+
+    <footer id="footer" class="dark-wrapper">
+         <div class="container inner">
+            <div class="row">
+                <div class="col-sm-4">
+                    &copy; Bamboehuis 2019
+                    <br/>Theme By <a class="" href="http://www.Themewagon.com">ThemeWagon</a>
+                </div>
+                <div class="col-sm-4">
+					Terug naar:
+                    <ul>
+                        <li><a href="/index.html">De begin pagina</a></li>
+                        <li><a href="/index.html#openingstijden">De agenda</a></li>
+                        <li><a href="/index.html#contact">Contact opnemen</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="social-bar">
+						<!--
+                        <a href="#" data-toggle="tooltip" class="ion-social-twitter tooltipped" title="Twitter"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-youtube tooltipped" title="Youtube"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-vimeo tooltipped" title="Vimeo"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-facebook tooltipped" title="Facebook"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-pinterest tooltipped" title="Pinterest"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-googleplus tooltipped" title="Google-Plus"></a>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
