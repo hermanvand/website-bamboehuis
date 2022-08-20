@@ -1751,9 +1751,6 @@ figure.effect-chico:hover p {
     .gridsmall figure figcaption {
         font-size: 70%;
     }
-    .btn-lg {
-        font-size: 75%;
-    }
 }
 
 
@@ -1962,7 +1959,11 @@ footer ul li a {
 		width:180px;
     }
     .vrimiwo-card {
-		font-size:75%;
+		font-size:80%;
+    }
+
+    .btn-lg {
+        font-size: 90%;
     }
 
     span.up-caps {
