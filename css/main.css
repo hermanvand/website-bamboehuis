@@ -355,10 +355,6 @@ input:-moz-placeholder { color:#fff; }
  Openingstijden 
 ========================================================================== */
 
-.red-wrapper {
-    background: rgb(190,69,79);
-    color: white;
-}
 #openingstijden .section-title {
     font-size: 45px;
     line-height: 60px;
@@ -472,41 +468,47 @@ li.bigger-paragraph {
 }
 
 /* ==========================================================================
- Contact 
+ WRAPPERS 
 ========================================================================== */
 
 .sepia-wrapper {
     background: rgb(137,117,96);
-    color: white;
+    color: rgb(232,227,217);
 }
 
-/* ==========================================================================
- Fotos 
-========================================================================== */
+.red-wrapper {
+    background: rgb(190,69,79);
+    color: rgb(232,227,217);
+}
 
 .black-wrapper {
     background: rgb(73,73,77);
-    color: white;
+    color: rgb(232,227,217);
 }
 
 .white-wrapper {
 	background: rgb(232,227,217);
-    color: rgb(232,227,217);
+    color: rgb(73,73,77);
 }
 
 .green-wrapper {
 	background: rgb(136,176,75);
-	color: white;
+	color: rgb(232,227,217);
 }
 
 .grey-wrapper {
 	background: rgb(131,132,135);
-	color: white;
+	color: rgb(232,227,217);
 }
 
 .yellow-wrapper {
 	background: rgb(177,131,47);
-	color: white;
+	color: rgb(232,227,217);
+}
+
+.rise-wrapper {
+    background: rgb(199,187,164);
+	color: rgb(73,73,77);
 }
 
 /* ==========================================================================
@@ -1953,10 +1955,17 @@ footer ul li a {
 }
 
 @media (max-width:480px) {
-    .vrimiwo-card div img {
-		width:80%;
+    .vrimiwo-card div.vrimiwo-card-img{
+		width:120px;
+    }
+    .vrimiwo-card div.vrimiwo-card-txt {
+		width:180px;
     }
     .vrimiwo-card {
-		font-size:85%;
+		font-size:75%;
+    }
+
+    span.up-caps {
+        font-size:70px;
     }
 }
