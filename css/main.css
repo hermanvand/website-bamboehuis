@@ -238,6 +238,17 @@ img {
     background-repeat:no-repeat;
 }
 
+.header-img13 {
+    background-image:url(../img/header-bg-custom-13.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
 /* Campagnes */
 
 .header-missing {
