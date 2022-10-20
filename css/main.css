@@ -2,9 +2,9 @@
  * sepia bruin: rgb(137,117,96)
  * oker geel: rgb(177,131,47)
  * rijst wit: rgb(199,187,164)
- * grijs: 131,132,135
+ * grijs: rgb(131,132,135)
  * groen: rgb(136,176,75)
- * red: 190,69,79
+ * red: rgb(190,69,79)
  * antraciet: rgb(73,73,77)
  * wit: rgb(232,227,217)
  */
@@ -266,6 +266,17 @@ img {
 
 .header-campagne-img1 {
     background-image:url(../campagnes/img/yoga-zoals-het-bedoeld-is.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+.header-campagne-img2 {
+    background-image:url(../campagnes/img/bamboehuis-de-yogaplek.png);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -563,12 +574,19 @@ h1.giant-heading {
 .section-title {
     font-size: 45px;
     line-height: 60px;
-    /*color: rgb(0, 90, 94);*/
     color: white;
     margin-bottom: 15px;
     font-weight:600;
     font-family: 'Pacifico', serif;
     margin-top: 0;
+}
+.section-title-quote {
+    font-size: 28px;
+    line-height: 48px;
+    color: rgb(190,69,79);
+    margin: 25px;
+    font-weight:400;
+    font-family: 'Pacifico', serif;
 }
 .main.lead {
     margin-bottom: 100px;
@@ -1945,6 +1963,9 @@ footer ul li a {
     }
     .section-title {
         font-size: 28px;
+    }
+    .section-title-quote {
+        font-size: 18px;
     }
     #openingstijden .section-title {
         font-size: 28px;
