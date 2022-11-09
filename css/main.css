@@ -21,16 +21,21 @@ img {
     max-width:100%;
 }
 
-
-#header .banner h1{
+#header .banner h1 {
     font-family:'Kreon',serif;
 }
 
-.navbar-brand h2, #header .subtitle h4 {
+.navbar-brand h2 {
     font-family: 'Pacifico', serif;
 }
 
+#header .subtitle h4 {
+    font-family: 'Pacifico', serif;
+}
 
+.btn-lg {
+    font-size: 100%;
+}
 
 /* ==========================================================================
  Header 
@@ -40,7 +45,7 @@ img {
     min-height: 512px;
 }
 .header-img {
-    background-image:url(../img/header-bg.jpg);
+    background-image:url(../img/header-bg-new.jpg);
     -webkit-background-size:/*@@prefixmycss->No equivalent*/;
     -moz-background-size:cover;
     -o-background-size:/*@@prefixmycss->No equivalent*/;
@@ -72,9 +77,10 @@ img {
     text-transform:uppercase;
 }
 #header .banner h1 {
-    font-size: 118px;
+    font-size: 84px;
     color:white;
     text-transform:uppercase;
+    text-shadow: 2px 2px rgba(137,117,96,0.7);
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -82,6 +88,7 @@ img {
 }
 #header .subtitle h4 {
     font-size:38px;
+    text-shadow: 2px 2px rgba(137,117,96,0.7);
 }
 #header .mybox {
     font-size:18px;
@@ -96,7 +103,7 @@ img {
 }
 #header .bannerbox {
     font-size:18px;
-    background:rgb(137,117,96);
+    background:rgba(137,117,96,0.7);
     width:350px;
     float:right;
     padding:15px;
@@ -120,6 +127,17 @@ img {
 /* ==========================================================================
  More Headers 
 ========================================================================== */
+
+.header-img0 {
+    background-image:url(../img/header-bg.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
 
 .header-img1 {
     background-image:url(../img/header-bg-custom-1.jpg);
@@ -249,7 +267,7 @@ img {
     background-repeat:no-repeat;
 }
 
-/* Campagnes */
+/* 404 error */
 
 .header-missing {
     background-image:url(../img/missing.jpg);
@@ -290,57 +308,62 @@ img {
  Navigation 
 ========================================================================== */
 #menu {
-    background: rgba(211, 230, 231, 1);
     margin-bottom:0;
-    border-color: rgb(177,131,47);
-    background: rgb(177,131,47);
+    border-color: white;
+    background: white;
+    color: rgb(73,73,77);
 }
 .navbar-brand h2 {
     margin-top:0;
     font-weight:bold;
     text-shadow: none;
+    color: rgb(177,131,47)
 }
 .navbar-brand {
     padding-top:8px;
     padding-bottom:0;
 }
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:focus {
     -webkit-transition:all 0.4s;
     -moz-transition:all 0.4s;
     -o-transition:all 0.4s;
     transition:all 0.4s;
     font-weight:bold;
     text-shadow: none;
+    background-color: white;
+    color: rgb(73,73,77);
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background: rgb(177,131,47);
+    background-color: rgb(131,132,135);
     color:white;
     text-shadow:none;
     -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25); 
     box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
-}
-
-.navbar-brand h2, .navbar-inverse .navbar-nav>li>a{
-    color: #4D949E;
-    color: white;
 }
 .navbar-toggle {
     font-size: 2.5em;
     padding: 0px;
     border: 0px;
     margin: 0px 15px 0px 0px;
-    color: white;
+    color: rgb(73,73,77);
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background: transparent;
-    color: darkcyan;
+    color: rgb(131,132,135);
 }
 
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgb(73,73,77);
+}
 
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: rgb(131,132,135);
+}
 
+/* bottom of viewport */
 
 .signupForm {
-    background: rgb(177,131,47);
+    background: white;
     padding: 16px 0;
 }
 .signupForm .form-control {
@@ -376,16 +399,6 @@ input:-moz-placeholder { color:#fff; }
 /* ==========================================================================
  Openingstijden 
 ========================================================================== */
-
-#openingstijden .section-title {
-    font-size: 45px;
-    line-height: 60px;
-    color: white;
-    margin-bottom: 15px;
-    font-weight:600;
-    font-family: 'Pacifico', serif;
-    margin-top: 0;
-}
 
 .mytable {
 	width:100%;
@@ -513,6 +526,11 @@ li.bigger-paragraph {
     color: rgb(73,73,77);
 }
 
+.real-white-wrapper {
+	background: white;
+    color: rgb(73,73,77);
+}
+
 .green-wrapper {
 	background: rgb(136,176,75);
 	color: rgb(232,227,217);
@@ -528,7 +546,7 @@ li.bigger-paragraph {
 	color: rgb(232,227,217);
 }
 
-.rise-wrapper {
+.rice-wrapper {
     background: rgb(199,187,164);
 	color: rgb(73,73,77);
 }
@@ -549,6 +567,7 @@ h1.giant-heading {
     letter-spacing: -4px;
 }
 
+/*
 .video-container{
     position: relative;
     width: 100%;
@@ -560,12 +579,30 @@ h1.giant-heading {
     width: 100% !important;
     height: 100% !important;
 }
+*/
+
+.videoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.videoContainer > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* ==========================================================================
  Story 
 ========================================================================== */
 .light-wrapper {
     background: rgb(232,227,217);
+    color: rgb(73,73,77);
 }
 .inner {
     padding-top:100px;
@@ -574,10 +611,9 @@ h1.giant-heading {
 .section-title {
     font-size: 45px;
     line-height: 60px;
-    color: white;
     margin-bottom: 15px;
     font-weight:600;
-    font-family: 'Pacifico', serif;
+    font-family: 'Kreon', serif;
     margin-top: 0;
 }
 .section-title-quote {
@@ -1849,7 +1885,7 @@ figure.effect-chico:hover p {
 ========================================================================== */
 .dark-wrapper {
     background: rgb(177,131,47);
-    color:white;
+    color: rgb(232,227,217);
     font-size: 15px;
 }
 .dark-wrapper .ss-style-top::before {
@@ -1883,13 +1919,23 @@ figure.effect-chico:hover p {
 }
 footer ul {
     margin: 0;
+    padding-left: 0;
+    padding-bottom: 10;
     list-style: none;
 }
-footer ul li a {
-    color: white;
+footer a:not(.btn) {
+    color: rgb(232,227,217);
+    text-decoration: underline;
     transition: all 0.4s;
 }
-
+footer a:not(.btn):hover {
+    color: white;
+    text-decoration: underline;
+    transition: all 0.4s;
+}
+footer p {
+    margin-bottom: 0;
+}
 .bvinfo{
 	font-size: 70%
 }
@@ -1966,20 +2012,21 @@ footer ul li a {
     }
     .section-title-quote {
         font-size: 18px;
-    }
-    #openingstijden .section-title {
-        font-size: 28px;
-    }   
-    footer ul {
-        padding-left: 0;
-        margin-top: 20px;
-        border-top: 1px solid;
-        padding-top: 10px;
-        border-bottom: 1px solid;
-        padding-bottom: 10px;
-    }
+    } 
     #contact img {
 		width:40%;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu {
+        margin: 10px;
+        background-color: rgb(232,227,217);
+        border: 1px solid rgb(131,132,135);
+        border-radius: 5px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:visited, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: rgb(73,73,77);
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: rgb(131,132,135);
     }
 }
 

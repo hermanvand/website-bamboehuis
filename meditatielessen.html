@@ -13,75 +13,104 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-   
-
     
-    <link href='https://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
-    
+    <link href='https://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'> 
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-
 
     <link href="css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
+
 <body data-spy="scroll" data-target="#navbar" data-offset="120" >
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    
-
     <div id="header" class="header-img4">
-        <div class="bg-overlay"></div>
-            <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="ion-navicon"></i>
-                        </button>
-                        <a class="navbar-brand" href="/index.html"><h2><i class="ion-home"></i></h2></a>
-                    </div><!-- navbar-header -->
+        <div class="bg-overlay">
+        </div>
+
+        <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"  aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="ion-navicon"></i>
+                    </button>
+                    <a href="/index.html" class="btn btn-default navbar-btn pull-left" style="margin-left:10px;margin-right:10px"><i class="ion-chevron-left"></i></a>
+                    <a class="navbar-brand" href="/yogi-zijn-lessen.html"><h2>Bamboehuis lessen</h2></a>                </div>
+                <!-- navbar-header -->
+
                 <div id="navbar" class="navbar-collapse collapse">
-
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#meditatie-les">Meditatieles</a></li>
-                        <li><a href="#docent">Docent</a></li>
-                        <li><a href="#blog">Contact & Prijzen</a></li>
-
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yogalessen <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/yogalessen.html#basis-yoga">Basis yoga</a></li>
+                                <li><a href="/yogalessen.html#gevorderde-yoga">Gevorderde yoga</a></li>
+                                <li><a href="/yogalessen.html#zonnegroet-yoga">Zonnegroet les</a></li>
+                                <li><a href="/yogalessen.html#asana-yoga">Asana les</a></li>
+                                <li><a href="/yogalessen.html#docent">Docent</a></li>
+                                <li><a href="/yogalessen.html#prijzen">Contact & Prijzen</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meditatielessen <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/meditatielessen.html#meditatie-les">Meditatieles</a></li>
+                                <li><a href="/meditatielessen.html#docent">Docent</a></li>
+                                <li><a href="/meditatielessen.html#prijzen">Contact & Prijzen</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Zelfrealisatie cursussen <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zelfrealisatielessen.html#cursussen">Cursus overzicht</a></li>
+                                <li><a href="/zelfrealisatielessen.html#les">Lesinformatie</a></li>
+                                <li><a href="/zelfrealisatielessen.html#docent">Docent</a></li>
+                                <li><a href="/zelfrealisatielessen.html#prijzen">Contact & Prijzen</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </div><!--/.navbar-collapse -->
-                </div><!-- container -->
-            </div><!-- menu -->
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+        </div>
+        <!--#menu-->
 
-            <div class="center text-right">
+        <div class="center text-right">
+            <div class="container">
+                <div class="banner">
+                    <h1 class="condensed">Meditatielessen</h1>
+                </div>
+                <!--<div class="subtitle"><h4>Bamboehuis</h4></div>-->
+            </div>
+        </div>
+        <!--text-->
+
+        <div class="bottom">
+            <div class="text-right container hidden-xs"><a id="scrollDownArrow" href="#"><i class="ion-ios7-arrow-thin-down"></i></a>
+            </div>
+            <div class="signupForm">
                 <div class="container">
-                    <div class="banner">
-                        <h1 class="condensed">Meditatielessen</h1>
+                    <div class="row">
                     </div>
                 </div>
             </div>
-        <div class="bottom">
-            <div class="text-right container hidden-xs"><a id="scrollDownArrow" href="#"><i class="ion-ios7-arrow-thin-down"></i></a></div>
-            <div class="signupForm">
-                <div class="container">
-                </div><!-- container -->
-            </div><!--/signupForm-->
         </div>
+        <!--.bottom-->
+
     </div>
-    <!-- /#header -->
+    <!-- #header --> 
 
-
-
-    <div id="medittatie" class="grey-wrapper">
+    <div id="meditatie" class="real-white-wrapper">
         <div class="container inner">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="col-wrapper">
-                        <h2 class="section-title text-center">Naar binnen kijken met meditatie</h2>
-                        <br/>
                         <img src="img/losseyogalessen/yoga-stilte-small.jpg" alt="yoga">
                         <br/><br/>
                     </div>
@@ -89,7 +118,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="col-wrapper">
-                    <br/>
+                        <h2 class="section-title">Naar binnen kijken met meditatie</h2>
 <p>Door meditatie vind je rust en stilte in jezelf. Meditatie heeft een positief effect op je gezondheid en je zelfvertrouwen.</p>
 
 <p>Meditatie volgt als je gedachten verminderen. Dan word je meer bewust van het moment en van jezelf. In deze basis meditatielessen gaan we dit oefenen: je gedachten tot rust brengen. Je leert dat er verschillende stappen en oefeningen zijn om daar te komen. Je leert minder te reageren op zintuigelijke ervaringen en meer te kijken naar wat er binnen in jou gebeurd. Je leert je concentreren en je doet oefeningen om in diepe concentratie te kunnen komen. Door de meditatie oefeningen kom je meer in balans.</p>
@@ -121,7 +150,7 @@
                         <b>wanneer</b>: 2-wekelijks op maandagochtend<br/>
 						<b>duur</b>: 1 uur<br/>
 						<b>prijs</b>: 15 euro<br/><br/>
-						<p><a href="/reserveren.html" class="btn btn-success btn-lg" role="button">Reserveer een les</a></p>
+						<p><a href="/reserveren.html#lesboeken" class="btn btn-success btn-lg" role="button">Reserveer een les</a></p>
                     </div>
                 </div>
                 <div class="col-sm-7">
@@ -159,9 +188,9 @@
             </div>
         </div>
     </div>
+    <!-- #meditatie-les -->
 
-
-    <div id="docent" class="red-wrapper">
+    <div id="docent" class="rice-wrapper">
        <div class="container inner">
              <div class="title">
                 <h2 class="section-title text-center">Docent</h2>
@@ -182,9 +211,10 @@
             <!-- /.services --> 
         </div>
         <!-- /.container -->
-    </div><!-- #story -->
+    </div>
+    <!-- #docent -->
 
-    <div id="blog" class="sepia-wrapper">
+    <div id="prijzen" class="white-wrapper">
         <div class="container inner">
             <div class="title">
                 <h2 class="section-title text-center">Praktische informatie</h2>
@@ -206,9 +236,9 @@
                     <div class="news clearfix">
                         <img src="img/lessenzelfrealisatie/b1.jpg" alt="" style="padding-bottom:10px;">
                         <h3>Contact</h3>
-                        <p>Mail Herman, herman@dompseler.nl, of kom langs in het Bamboehuis.</p>
+                        <p>Mail Herman, herman@bamboehuis.amsterdam, of kom langs in het Bamboehuis.</p>
+                        <p><a href="/reserveren.html#lesboeken" class="btn btn-success btn-lg" role="button">Of reserveer direct een les</a></p>
                         <p>De meditatieles is 2-wekelijks op maandagochtend van 9:00 tot 10:00 uur. Een goed begin van de week!</p>
-                       <p class="text-center"><a href="mailto:herman@dompseler.nl?subject=aanmelden%20meditatie%20les&body=" class="btn btn-success btn-lg" role="button">Neem contact op per email</a></p>
                         <!--<a href="#" class="fold-link">Read More</a>-->
                     </div>
                 </div>  <!-- col-sm-6  -->
@@ -217,55 +247,98 @@
             <!-- /.blog --> 
         </div>
         <!-- /.container -->
-    </div><!-- #blog -->
+    </div>
+    <!-- #prijzen -->
 
-    <footer id="footer" class="dark-wrapper">
-         <div class="container inner">
-            <div class="row">
-                <div class="col-sm-4">
-                    &copy; Bamboehuis 2019
-                    <br/>Theme By <a class="" href="http://www.Themewagon.com">ThemeWagon</a>
-                </div>
-                <div class="col-sm-4">
-					Direct naar:
-					<ul>
-					<li><a href="yogi-zijn-lessen.html">Lessen</a></li>
-					<li>- <a href="yogalessen.html">Yogalessen</a></li>
-					<li>- <a href="meditatielessen.html">Meditatielessen</a></li>
-					<li>- <a href="zelfrealisatielessen.html">Zelfrealisatie cursussen</a></li>
-                    <li>&nbsp;</li>
-					<li><a href="workshops.html">Workshops</a></li>
-					<li>&nbsp;</li>
-                    <li><a href="index.html#openingstijden">Lestijden</a></li>
-                    <li><a href="reserveren.html">Reserveren</a></li>
-                    <li>&nbsp;</li>					
-                    <li><a href="yogi-zijn.html">Being a Yogi</a></li>
-                    <li><a href="gratissangha.html">Sangha</a></li>
-					<li><a href="zelfstudie.html">Zelfstudie</a></li>
-					<li><a href="doneren.html">Doneren</a></li>
-                    <li>&nbsp;</li>			
-                    <li><a href="index.html#contact">Contact</a></li>		
-                    <li><a href="algemene-voorwaarden.html">Algemene voorwaarden</a></li>
-					</ul>
-                    <br/>
-                </div>
-                <div class="col-sm-4">
-                    <div class="social-bar">
-						<!--
-                        <a href="#" data-toggle="tooltip" class="ion-social-twitter tooltipped" title="Twitter"></a>
-                        <a href="#" data-toggle="tooltip" class="ion-social-youtube tooltipped" title="Youtube"></a>
-                        <a href="#" data-toggle="tooltip" class="ion-social-vimeo tooltipped" title="Vimeo"></a>
-                        <a href="#" data-toggle="tooltip" class="ion-social-facebook tooltipped" title="Facebook"></a>
-                        <a href="#" data-toggle="tooltip" class="ion-social-pinterest tooltipped" title="Pinterest"></a>
-                        <a href="#" data-toggle="tooltip" class="ion-social-googleplus tooltipped" title="Google-Plus"></a>
-                        -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </footer>
+	<footer id="footer" class="sepia-wrapper">
+		<div class="container inner">   
+			<div class="row">
 
+				<div class="col-sm-4">
+					<div class="col-wrapper">	
+						<p>
+							<b>Het Bamboehuis</b>
+							<br/>Kea Boumanstraat 36
+							<br/>1095MA Amsterdam
+						</p>
+
+						<br/><br/>
+
+						<p>
+						<b>Bel of mail voor persoonlijk contact</b>
+						<br/>naar Evelien 06 41 50 65 59
+						<br/>evelien@bamboehuis.amsterdam
+						<br/>of herman@bamboehuis.amsterdam
+						</p>
+
+						<br/><br/>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="col-wrapper">	
+
+						<p><b>Direct naar</b>
+							<ul>
+							<li><a href="yogalessen.html">Yogalessen</a></li>
+							<li><a href="meditatielessen.html">Meditatielessen</a></li>
+							<li><a href="zelfrealisatielessen.html">Zelfrealisatie cursussen</a></li>
+							<li>&nbsp;</li>
+							<li><a href="workshops.html#vrimiwo">Vrijdagmiddag workshops</a></li>
+							<li><a href="workshops.html#opfriscursus">Opfriscursus Raja Yoga</a></li>
+							<li><a href="workshops.html#retraite">Retraite</a></li>
+							<li><a href="workshops.html#opendag">Open dag</a></li>
+						</ul>
+						</p>
+
+						<br/><br/>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="col-wrapper">	
+						<p>
+							<b>Reserveren</b>
+							<br/>Je kunt je lessen zelf reserveren op Momoyoga.
+						</p>
+
+						<br/>
+
+						<p class="text-center">
+							<a href="https://www.momoyoga.com/bamboehuis" class="btn btn-success btn-lg" role="button">Nu een les reserveren</a>
+						</p>
+
+						<br/><br/>
+
+						<p>
+							<b>Zelfstudie</b>
+							<br/>Op <a href="https://www.youtube.com/channel/UC4UJQoLjoSims6xYjK7oDfw">youtube</a> staan veel filmpjes van yogahoudingen om zelf thuis te oefenen.
+						</p>
+
+						<br/><br/>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-12">
+					<div class="col-wrapper">	
+						<p>
+							&copy; Bamboehuis 2022
+							| Lees onze <a href="algemene-voorwaarden.html">algemene voorwaarden</a>
+							| Theme By <a class="" href="http://www.Themewagon.com">ThemeWagon</a>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</footer>
+	<!--#footer-->
+    
     <script src="js/jquery-2.1.3.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 

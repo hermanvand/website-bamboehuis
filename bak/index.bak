@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bamboehuis Amsterdam - de plek voor yoga en meditatie</title>
+    <meta name="description" content="Ontdek de wondere wereld van yoga en meditatie. Ontdek jezelf en ontmoet anderen. Het Bamboehuis is een plek voor rust, stilte en yoga in de stad.">
+    <meta name="keywords" content="Sangha, Yoga, Meditatie, Essentie, Bewustzijn, energie, zelfrealisatie, rust, stilte, kalmte, inzicht, concentratie, zeeburgereiland, amsterdam">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+     
+    <link href='https://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+	<!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+	<link href="css/vendor/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+	<!-- <link href="css/vendor/fontawesome.min.css" rel="stylesheet" media="all"> -->
+	<link href="css/vendor/animate.min.css" rel="stylesheet" media="all">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="120" >
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="header" class="header-img">
+        <div class="bg-overlay"></div>
+            <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="ion-navicon"></i>
+                        </button>
+                        <!--<a class="navbar-brand" href="/index.html"><h2><i class="ion-home"></i></h2></a>-->
+                        <!--<span class="navbar-brand"><h2>: yogalessen</h2></span>-->
+                    </div><!-- navbar-header -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#header">Bamboehuis</a></li>
+                        <li><a href="#lesaanbod">Lessen & Workshops</a></li>
+                        <li><a href="#openingstijden">Lestijden & Reserveren</a></li>
+                        <li><a href="#yogi-zijn">Being a Yogi</a></li>
+                        <li><a href="#sangha">Sangha</a></li>
+                        <li><a href="#zelfstudie">Zelfstudie</a></li>
+                        <li><a href="#doneren">Doneren</a></li>
+                        <li><a href="#contact">Contact & Meer</a></li>
+                        <li><a href="#fotos">Foto’s</a></li>
+
+                    </ul>
+                </div><!--/.navbar-collapse -->
+                </div><!-- container -->
+            </div><!-- menu -->
+
+            <div class="center text-right">
+                <div class="container">
+                    <div class="banner">
+                        <h1 class="condensed">Bamboehuis</h1>
+                    </div>
+                    <div class="subtitle"><h4>yoga & meditatie</h4></div>
+                    <div class="subtitle mybox">Werk aan je gezondheid.<br/>Boek een yogales of workshop.</div>
+                    <!--<div class="subtitle mybox">Voor iedereen die de ware essentie van zichzelf wil ontdekken</div>
+                    <div class="subtitle mybox"><a href="workshops.html#opendag"><img src="img/workshops/yogaruimte.jpg" alt="Open dag" width="300"></a><br/>Kom naar de open dag op 12 maart!</div>-->
+                </div>
+            </div>
+        <div class="bottom">
+            <div class="text-right container hidden-xs"><a id="scrollDownArrow" href="#"><i class="ion-ios7-arrow-thin-down"></i></a></div>
+            <div class="signupForm">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div><!-- container -->
+            </div><!--/signupForm-->
+        </div>
+    </div>
+    <!-- /#bamboehuis -->
+
+    <div id="quote" class="yellow-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h5 class="section-title-quote text-center" style="color: rgb(232,227,217)">Het Bamboehuis is de yogaplek in Amsterdam waar je weet dat het goed is.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- /.services --> 
+    </div>
+    <!-- #quote -->
+
+    <div id="lesaanbod" class="light-wrapper">
+        <div class="container inner">
+			<h2 class="section-title text-center">LESSEN & WORKSHOPS</h2>
+            <div class="row story">
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+<p class="text-right">Onze lessen kunnen jou helpen de stilte in jezelf te vinden. We werken in kleine groepen, met veel aandacht voor jouw persoonlijke ontwikkeling.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+<p><a href="mailto:evelien@dompseler.nl?subject=Aanmelden%20proefles&body=Ik%20wil%20mij%20graag%20aanmelden%20voor%20een%20proefles." class="btn btn-success btn-lg" role="button" style="margin:10px">Aanmelden proefles met 50% korting</a></p>
+<!--<div style="border-style:dotted">
+<p class="text-center"><br/>Je kunt, om te beginnen, je aanmelden voor een <b>proefles</b>.<br/>Je krijgt dan 50% korting op de prijs van een gewone yogales.</p>
+<p class="text-center">
+<a href="mailto:evelien@dompseler.nl?subject=Aanmelden%20proefles&body=Ik%20wil%20graag%20aanmelden%20voor%20een%20proefles." class="btn btn-success btn-lg" role="button" style="margin:10px">Aanmelden voor een proefles</a>
+<a href="workshops.html#introductie" class="btn btn-success btn-lg" role="button" style="margin:10px">Meedoen met de introductie workshop</a>
+</p>
+</div>-->
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+
+        <div class="container gridsmall">
+            <figure class="effect-bubba">
+                <img src="img/gallery/10-lessen.jpg" alt="img02">
+                <figcaption>
+                    <h2><span class="btn btn-success">Lessen</span></h2>
+                    <p>Doe mee met een yogales in het Bamboehuis.</p>
+                    <a href="yogi-zijn-lessen.html">View more</a>
+                </figcaption>           
+            </figure>
+            <figure class="effect-bubba">
+                <img src="img/gallery/6-workshops.jpg" alt="img08">
+                <figcaption>
+                    <h2><span class="btn btn-success">Workshops</span></h2>
+                    <p>Yoga en meditatie workshops voor zelfontwikkeling en bewustwording.</p>
+                    <a href="workshops.html">View more</a>
+                </figcaption>           
+            </figure>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- #lesaanbod -->
+   
+    <div id="openingstijden" class="red-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                 <h2 class="section-title text-center">LESTIJDEN & RESERVEREN</h2>
+<p class="text-center">
+    <!--<b>De lessen starten weer op 5 september. -->
+        <b>Het Bamboehuis is open voor iedereen.<br/>Je kunt direct en eenvoudig reserveren of de weekplanning bekijken.<br/></b>
+</p>
+<p class="text-center">
+    <a href="reserveren.html" class="btn btn-success btn-lg" role="button">Reserveren</a>
+    &nbsp;&nbsp;
+    <a href="img/lestijden-2022.jpg" class="btn btn-success btn-lg" role="button"><img src="img/lestijden-2022.jpg" style="width:20px"> Weekplanning</a>
+</p>
+
+                </div>
+                <div class="col-sm-8 col-sm-offset-2">
+					
+<h3 class="section-title text-center">kies een les</h3>
+<br/>
+
+<!--
+<div class="card" style="float:left;position:relative;width:150px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/zomer-small.jpg" class="card-img-top" alt="zomer" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Zelfstudie</h4>
+      <h6 class="card-subtitle text-muted">18 jul - 28 aug</h6>
+      <p class="card-text">In de zomervakantie kun je thuis je yoga voortzetten.</p>
+      <div class="bottom-button"><a href="zelfstudie.html" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+-->
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/10-lessen.jpg" class="card-img-top" alt="yogalessen" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Basis Yoga</h4>
+      <h6 class="card-subtitle text-muted">wekelijks</h6>
+      <p class="card-text">Doe mee met de basis yoga lessen voor een gezond leven</p>
+      <div class="bottom-button"><a href="yogalessen.html#basis-yoga" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/12-lessen2.jpg" class="card-img-top" alt="yogalessen" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Gevorderde Yoga</h4>
+      <h6 class="card-subtitle text-muted">wekelijks</h6>
+      <p class="card-text">Verdiep je houdingen en meditatie in de gevorderde yoga lessen </p>
+      <div class="bottom-button"><a href="yogalessen.html#gevorderde-yoga" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+  
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/3-zelfrealisatie.jpg" class="card-img-top" alt="zelfrealisatie" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Zelfrealisatie cursus</h4>
+      <h6 class="card-subtitle text-muted">start 5 december</h6>
+      <p class="card-text">Volg een cursus, ontdek jezelf en leer te leven als een yogi</p>
+      <div class="bottom-button"><a href="zelfrealisatielessen.html" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/zomer-small.jpg" class="card-img-top" alt="zonnegroet" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Zonnegroet les</h4>
+      <h6 class="card-subtitle text-muted">2-wekelijks</h6>
+      <p class="card-text">Beoefen asana's in een flow en verbeter je energie balans</p>
+      <div class="bottom-button"><a href="yogalessen.html#zonnegroet-yoga" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/asana-les.jpg" class="card-img-top" alt="asana" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Asana les</h4>
+      <h6 class="card-subtitle text-muted">2-wekelijks</h6>
+      <p class="card-text">Leer asana's met meer aandacht uit te voeren voor een soepel lichaam</p>
+      <div class="bottom-button"><a href="yogalessen.html#asana-yoga" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+  
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/gallery/2-meditatie.jpg" class="card-img-top" alt="meditatie" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Meditatie</h4>
+      <h6 class="card-subtitle text-muted">2-wekelijks</h6>
+      <p class="card-text">Doe meer meditatie en breng je gedachten tot rust</p>
+      <div class="bottom-button"><a href="meditatielessen.html" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/workshops/kracht.jpg" class="card-img-top" alt="workshop" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Workshop</h4>
+      <h6 class="card-subtitle text-muted">iedere vrijdagmiddag</h6>
+      <p class="card-text">Beoefen een yoga of meditatie techniek en kom weer tot jezelf</p>
+      <div class="bottom-button"><a href="workshops.html" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+  <div class="card" style="float:left;position:relative;width:145px;height:300px;background:rgb(232,227,217);color:rgb(73,73,77);border-radius:7px">
+    <img src="img/workshops/opfriscursus.jpg" class="card-img-top" alt="raja yoga" style="border-top-left-radius:7px;border-top-right-radius:7px">
+    <div class="card-body">
+      <h4 class="card-title">Opfriscursus Raja Yoga</h4>
+      <h6 class="card-subtitle text-muted">start 9 december</h6>
+      <p class="card-text">Breng je focus op yoga, volg 10 workshops</p>
+      <div class="bottom-button"><a href="workshops.html#opfriscursus" class="btn btn-success"><i class="ion-android-arrow-forward"></i></a></div>
+    </div>
+  </div>
+
+<br clear="left"/>
+
+                </div>
+           </div>
+        </div>
+    </div>
+    <!-- #openingstijden -->
+
+    <div id="yogi-zijn" class="grey-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">BEING A YOGI</h2>
+                <br/>
+            </div>
+			
+            <div class="row story">
+                <div class="col-sm-6">
+                    <div class="col-wrapper">				
+						<p>
+							<!--<i>"De ware yogi is 100% dienstbaar in alles wat hij doet en kan zich volledig onthechten van 'zijn' aandeel daarin, daardoor ziet hij de eenheid en essentie van het leven in iedere uiting. Hij is dankbaar voor alle resultaten die daaruit voortkomen, dankbaar dat hij met het leven in harmonie is en volledig kalm, vol vertrouwen een bijdrage kan leveren. Daarmee verlicht hij zichzelf en zo kan hij opgaan in het geheel."</i>-->
+							<i>"Yoga helpt bij een gezond leven, geeft ontspanning en soepelheid van het lichaam, maakt je gedachten stiller, geeft je zelfvertrouwen en ontwikkelt je intuïtie. Door yoga word je meer bewust en krijg je inzicht. Je komt meer in balans en in harmonie en daardoor kun je je dromen realiseren."</i>
+						</p>
+ 						<p class="text-right"><a href="yogi-zijn.html" class="btn btn-success btn-lg" role="button">Lees meer over yoga in het Bamboehuis</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <img class="bottom-marged" src="img/header-bg-custom-9.jpg">						
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+    </div><!-- #yogi-zijn -->
+ 
+    <div id="sangha" class="sepia-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">SANGHA</h2>
+                <br/>
+            </div>
+            <div class="row story">
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+                        <img src="img/header-bg-custom-1.jpg">
+                        <br/><br/>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="col-wrapper">				
+						<p><span class="up-caps">S</span>angha tijd is tijd om elkaar te ontmoeten of gezamenlijk yoga of meditatie te beoefenen. Heb je behoefte aan gezamenlijke yoga beoefening of meditatie. Of wil je het eens met anderen over de yogafilosofie hebben. Bekijk dan de sangha pagina voor de mogelijkheden in het Bamboehuis. Sangha is gratis.</p>
+						<p><a href="gratissangha.html" class="btn btn-success btn-lg" role="button">Gratis Sangha</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #sangha -->
+
+    <div id="zelfstudie" class="green-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">ZELFSTUDIE</h2>
+                <br/>
+            </div>
+            <div class="row story">
+                <div class="col-sm-7">
+                    <div class="col-wrapper">				
+						<p><span class="up-caps">Z</span>elfstudie is een essentieel onderdeel van je yogabeoefening. Naast de lessen in het bamboehuis kun je de lessen dagelijks in de praktijk brengen. Iedere dag is een dag om te leven en te leren. Ieder moment is een bijzonder moment. Iedere situatie kan gebruikt worden om aan jezelf te werken.</p>
+						<p>Heb je zin om aan de slag te gaan met yogahoudingen, met meditatie oefeningen of zin om te lezen over de achterliggende filosofie. Neem dan de zelfstudiepagina als startpunt. Deze pagina staat vol met tips, informatie, verwijzingen en oefeningen.</p>
+						<p><a href="zelfstudie.html" class="btn btn-success btn-lg" role="button">Zelfstudie</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="col-wrapper">
+                        <img class="bottom-marged" src="img/header-bg-custom-7.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #zelfstudie -->
+
+    <div id="doneren" class="grey-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">DONEREN</h2>
+                <br/>
+            </div>
+			
+            <div class="row story">
+                <div class="col-sm-8">
+                    <div class="col-wrapper">				
+						<p><span class="up-caps">W</span>il je betrokken raken bij het bamboehuis en ook de boodschap van de stilte uitdragen. Dat kan, in de vorm van dana. Dana is het beoefenen van vrijgevigheid. Je geeft uit dankbaarheid en dienstbaarheid, vanuit je hogere zelf. Er zijn verschillende vormen van dana. Je kunt geven door te wensen of door het gedachtegoed van het Bamboehuis te verspreiden. Geven kan ook financieel als je dat kunt dragen, daarvoor staat hiernaast een doneren knop. Je kunt ook contact opnemen met ons als je iets voor het bamboehuis kunt betekenen, misschien heb je zelf wel een idee. Laat het ons weten!
+						</p>
+ 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="col-wrapper">
+						<p><a href="doneren.html" class="btn btn-success btn-lg" role="button">Doneren</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+    </div><!-- #doe-mee -->
+       
+    <div id="contact" class="sepia-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+					<h2 class="section-title text-center">CONTACT & MEER</h2>
+					<br/>
+                </div>
+		    </div>
+		    
+            <div class="row">
+                <div class="col-sm-2">
+					<img src="img/bamboehuis.jpg" width="85%" alt="bamboehuis">
+                    <br/><br/>
+                </div>
+                <div class="col-sm-8">
+<p>
+Het bamboehuis is een plek voor mensen die yoga en meditatie
+beoefenen. Het is een ontmoetingsplek in de stad waar je terecht kunt voor rust, stilte en yogalessen.
+</p>
+<p>
+De yogalessen worden gegeven door Evelien en Herman. De
+lessen die zij geven brengen je tot de ware essentie van jezelf en
+zijn gebaseerd op het achtvoudige Raja Yoga pad.
+</p>
+<p>Lees onze algemene voorwaarden om er achter te komen hoe alles werkt in het Bamboehuis.</p>
+<p>
+Heb je interesse? Je bent welkom! Kom naar het Bamboehuis op Zeeburgereiland in Amsterdam Oost:
+<br/><b>Kea Boumanstraat 36</b>
+<br/><b>1095 MA Amsterdam</b>
+</p>
+<p>
+<!--
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckSdCoPl5H3hKrowbYRsK963iHumwuwn0Dg1mZcbcJs--zmg/viewform?embedded=true" width="640" height="729" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+</p>
+<p>
+-->
+Of bel of mail voor aanmelding naar Evelien of Herman
+<br/>Mobiel: 0641506559 (evelien)
+<br/>Mail: evelien@bamboehuis.amsterdam of herman@bamboehuis.amsterdam
+</p>
+<p class="text-center">
+    <a href="algemene-voorwaarden.html" class="btn btn-success btn-lg" role="button">Algemene voorwaarden</a>
+    &nbsp;&nbsp;
+    <a href="mailto:evelien@dompseler.nl?subject=hoi%20bamboehuis&body=" class="btn btn-success btn-lg" role="button">Contact per email</a>
+</p>
+                </div>
+                <div class="col-sm-2">
+ 					<a href="yogalessen.html#docent"><img src="img/evelien.jpg" width="70%" style="margin-bottom:10px;margin-right:10px;" alt="evelien"/></a>
+					<a href="zelfrealisatielessen.html#docent"><img src="img/herman.jpg" width="70%" style="margin-bottom:10px;margin-right:10px;" alt="herman"/></a>
+                </div>
+            </div>
+ 
+             <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+
+<div class="tableoverflow">
+<table class="anothertable" style="table-layout: fixed;">
+<tr>
+<td class="anothertableheader" colspan="3"><h3>Volg ons</h3></td>
+</tr>
+<tr>
+<td class="anothertabledata"><a href="http://www.beingayogi.org"><img src="img/news/beingayogi.png" width="80px"/></a></br>being a yogi</td>	
+<td class="anothertabledata"><a href="http://www.boe.nl"><img src="img/news/blog.png" width="80px"/></a></br>blog</td>	
+<td class="anothertabledata"><a href="https://www.youtube.com/channel/UC4UJQoLjoSims6xYjK7oDfw
+"><img src="img/news/youtube.png" width="80px"/></a></br>youtube</td>	
+</tr>
+<tr>
+<td class="anothertabledata"><a href="http://eepurl.com/duA7q9"><img src="img/news/nieuwsbrief.png" width="80px"/></a></br>nieuwsbrief</td>
+<td class="anothertabledata"><a href="https://www.google.com/maps/place/Bamboehuis/@52.3749617,4.9669881,15z/data=!4m5!3m4!1s0x0:0xf6d56bd03e4faad8!8m2!3d52.3749617!4d4.9669881"><img src="img/news/lokatie.png" width="80px"/></a></br>maps</td>	
+<td class="anothertabledata"><a href="https://www.instagram.com/bamboehuis.amsterdam/"><img src="img/news/instagram.png" width="80px"/></a></br>instagram</td>
+</tr>
+<tr>
+<td class="anothertabledata"><a href="https://www.facebook.com/bamboehuis.amsterdam"><img src="img/news/facebook.png" width="80px"/></a></br>facebook</td>	
+<td class="anothertabledata"><a href="https://www.linkedin.com/company/de-wereld-over/"><img src="img/news/linkedin.png" width="80px"/></a></br>Linkedin</td>	
+<td class="anothertabledata"></td>	
+</tr>
+<tr>
+    <td class="anothertableheader" colspan="3"><h3>& meer</h3></td>
+</tr>
+<tr>
+    <td class="anothertabledata" style="vertical-align:top;">
+        <a href="/campagnes/yoga-zoals-het-bedoeld-is.html"><img src="/campagnes/img/yoga-zoals-het-bedoeld-is.jpg" width="120px"/></a>
+        <br/>2021: Yoga zoals het bedoeld is
+    </td>	
+    <td class="anothertabledata" style="vertical-align:top;">
+        <a href="/campagnes/bamboehuis-de-yogaplek-in-amsterdam.html"><img src="/campagnes/img/bamboehuis-de-yogaplek.png" width="120px"/></a>
+        <br/>2022: Bamboehuis, de yogaplek in Amsterdam
+    </td>	
+    <td class="anothertabledata" style="vertical-align:top;">&nbsp;</td>	
+</tr>
+</table>
+</div>
+                </div>
+		    </div>
+
+    </div>
+    <!-- #contact -->
+    
+    <div id="fotos" class="black-wrapper">
+        <div class="container inner">
+            <div class="row story">
+                <div class="col-sm-12">
+                    <div class="col-wrapper">
+						<h2 class="section-title text-center">FOTO'S</h2>
+
+		<!-- Begin slider -->
+        <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="false" data-interval="5000" >
+
+            <!-- Indicators -->
+            <!--
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+            </ol>
+            -->
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- First Slide -->
+                <div class="item active">
+					<!-- Slide Background -->
+					<img src="img/foto/foto-1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- 4 Slide -->
+                <div class="item">
+					<!-- Slide Background -->
+					<img src="img/foto/foto-4.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- 5 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-5.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- 6 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-6.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+
+                <!-- 7 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-7.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+
+                <!-- 8 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-8.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+
+                <!-- 9 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-9.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+
+                <!-- 10 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-10.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+
+                <!-- 11 Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/foto/foto-11.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                    <div class="bs-slider-overlay"></div>
+                </div>
+                <!-- End of Slide -->
+
+            </div><!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div> <!-- End  bootstrap-touch-slider Slider -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.services --> 
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- #fotos -->
+
+    <footer id="footer" class="dark-wrapper">
+        <div class="container inner">         
+            <div class="row">
+                <div class="col-sm-4">
+                    &copy; Bamboehuis 2019-2022
+                    <br/>Theme By <a class="" href="http://www.Themewagon.com">ThemeWagon</a>
+                    <br/><br/>
+                </div>
+                <div class="col-sm-4">
+					Direct naar:
+					<ul>
+					<li><a href="yogi-zijn-lessen.html">Lessen</a></li>
+					<li>- <a href="yogalessen.html">Yogalessen</a></li>
+					<li>- <a href="meditatielessen.html">Meditatielessen</a></li>
+					<li>- <a href="zelfrealisatielessen.html">Zelfrealisatie cursussen</a></li>
+                    <li>&nbsp;</li>
+					<li><a href="workshops.html">Workshops</a></li>
+					<li>&nbsp;</li>
+                    <li><a href="#openingstijden">Lestijden</a></li>
+                    <li><a href="reserveren.html">Reserveren</a></li>
+                    <li>&nbsp;</li>					
+                    <li><a href="yogi-zijn.html">Being a Yogi</a></li>
+                    <li><a href="gratissangha.html">Sangha</a></li>
+					<li><a href="zelfstudie.html">Zelfstudie</a></li>
+					<li><a href="doneren.html">Doneren</a></li>
+                    <li>&nbsp;</li>			
+                    <li><a href="#contact">Contact</a></li>		
+                    <li><a href="algemene-voorwaarden.html">Algemene voorwaarden</a></li>
+					</ul>
+                    <br/>
+                </div>
+                <div class="col-sm-4 bvinfo">
+                    Het Bamboehuis is een initiatief van Evelien en Herman en is een handelsnaam van hun gezamenlijke BV De Wereld Over. Het adres is Kea Boumanstraat 36, 1095MA in Amsterdam. Je kunt contact opnemen met info@dewereldover.nl voor alle niet-yoga gerelateerde vragen.
+                    <br/><br/>BV De Wereld Over staat bekend onder het KvK-nummer: 34392228 en BTW-nummer: NL822409781B01.
+
+                </div>
+		    </div>
+        </div>
+    </footer>
+       
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+	<!-- Bootstrap bootstrap-touch-slider Slider Main JS File -->
+	<script src="js/vendor/bootstrap-touch-slider.js"></script>
+    <script src="js/vendor/jquery.touchSwipe.min.js"></script>
+	
+	<script type="text/javascript">
+		$('#bootstrap-touch-slider').bsTouchSlider();
+	</script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+

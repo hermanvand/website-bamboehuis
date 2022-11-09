@@ -102,7 +102,7 @@ $(document).ready(function() {
 		}
 		);
 	});
-	jQuery('.nav > li > a, #logo a').click(function(e) {
+	jQuery('.nav > li > a.scroll, #logo a').click(function(e) {
 		e.preventDefault();
 
 		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
@@ -118,6 +118,16 @@ $(document).ready(function() {
 
 });
 
+/*---------------   Close navbar ---------------*/
+
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
 
 
 /*---------------   Social Button tooltip ---------------*/
