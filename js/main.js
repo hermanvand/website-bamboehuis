@@ -1,3 +1,4 @@
+var cssVersion = "20221113"
 // chrome anchor fix
 // https://stackoverflow.com/questions/38588346/anchor-a-tags-not-working-in-chrome-when-using
  $(function() {
@@ -45,6 +46,8 @@
 
 
 $(document).ready(function() {
+	// load css
+	$('head').append('<link rel="stylesheet" type="text/css" href="/css/main'+cssVersion+'.css">');
 	///////////////////////////////
 	// Set Home Slideshow Height
 	///////////////////////////////
