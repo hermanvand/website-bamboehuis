@@ -315,6 +315,18 @@ img {
     background-repeat:no-repeat;
 }
 
+.header-event-img1 {
+    background-image:url(../events/img/reawakening-of-the-female-power.jpg);
+    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -moz-background-size:cover;
+    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+
+
 /* ==========================================================================
  Navigation 
 ========================================================================== */
