@@ -1,5 +1,7 @@
 FROM nginx
 
+LABEL org.opencontainers.image.source https://github.com/hermanvand/website-bamboehuis
+
 # copy files
 COPY *.html /usr/share/nginx/html/
 COPY *.ico /usr/share/nginx/html/
